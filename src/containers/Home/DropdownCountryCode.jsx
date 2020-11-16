@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react'
 import Select from 'react-select'
 
-export default class DropdownCountryCode extends Component {
+class DropdownCountryCode extends Component {
     constructor(props) {
       super(props)
       this.state = {
@@ -17,7 +17,6 @@ export default class DropdownCountryCode extends Component {
         .then(res => res.json())
         .then(data => this.setState({ items: data, isLoading: false }))
     }
-
   
     render() {
       const { items, selectedOption } = this.state
@@ -44,7 +43,6 @@ export default class DropdownCountryCode extends Component {
         </Fragment>
       )
     }
-  
-  
   }
   
+  export default DropdownCountryCode;

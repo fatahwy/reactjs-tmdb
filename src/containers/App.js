@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import './App.css';
-import { NavBar } from 'components/Common'
+import { NavBar } from '../components'
 import Router from './route'
 
 class App extends Component {

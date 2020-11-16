@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route, Switch } from 'react-router-dom';
-import Home from 'containers/Home'
-import { NotFound } from 'components/Common'
+import { Home } from './Home'
+import { NotFound } from '../components';
   
 //   function UserDetailView({match}){
 //     return <h1>User : {match.params.id}</h1>
